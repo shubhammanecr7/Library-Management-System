@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Add New Book</title>
+	<style type="text/css">
+		body {
+			background-image: url("./Images/librarianhome.jpg");
+		}
+
+		.ptag {
+			opacity: 0.9;
+			background-color: buttonhighlight;
+			text-align: center;
+			margin: auto;
+			width: 25%;
+			border-radius: 30px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="ptag">
+		<form action="AddBookServlet" method="post">
+			<br><br>
+			Book ID :<input type="text" name="bid"><br><br>
+			Book Name :<input type="text" name="name"><br><br>
+			Author Name :<input type="text" name="author"><br><br>
+			Publisher Name :<input type="text" name="publisher"><br><br>
+			Quantity :<input type="text" name="quantity"><br><br>
+
+			<input type="submit" value="Add Book">
+			<br><br>
+		</form>
+	</div>
+</body>
+
+</html>

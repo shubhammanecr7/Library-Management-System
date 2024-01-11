@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("./Images/bookk.jpg");
+}
+.ptag{
+	opacity:0.9;
+	background-color:buttonhighlight;
+	text-align: center;
+	margin: auto;
+  	width: 25%;
+  	border-radius: 30px;
+}

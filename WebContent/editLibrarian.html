@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Edit Librarian</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+	<style type="text/css">
+		body {
+			background-image: url("./Images/adminhome.jpg");
+		}
+
+		div {
+			margin-left: 500px;
+			margin-top: 150px;
+			width: 30%;
+			border-radius: 20px;
+			background-color: activecaption;
+		}
+
+		i {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<div align="center"><br>
+		<h4>Update Librarian Details</h4>
+		<form action="EditLibrarianServlet" method="post">
+			<table>
+				<tr>
+					<i>*Id should be accurate</i>
+					<td>ID</td>
+					<td><input type="text" name="id" placeholder="Enter Old ID"></td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td><input type="text" name="name" placeholder="New name"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="text" name="email" placeholder="New email"></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="text" name="pass" placeholder="New password"></td>
+				</tr>
+				<tr>
+					<td>Mobile</td>
+					<td><input type="text" name="mob" placeholder="New mobile no."></td>
+				</tr>
+			</table>
+			<br><input type="submit" class="btn btn-warning" value="Update Details">
+		</form><br>
+	</div>
+</body>
+
+</html>
